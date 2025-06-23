@@ -1,7 +1,7 @@
 {
   "name": "@lepion/mcp-server-linear",
   "version": "1.0.0",
-  "description": "Enhanced Model Context Protocol server for Linear project management with AI intelligence",
+  "description": "Model Context Protocol server for Linear project management with AI-powered intelligence capabilities",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
