@@ -1,6 +1,6 @@
-# @lepion/mcp-server-linear
+# @kayaozkur/mcp-server-linear
 
-[![npm version](https://img.shields.io/npm/v/@lepion/mcp-server-linear.svg)](https://www.npmjs.com/package/@lepion/mcp-server-linear)
+[![npm version](https://img.shields.io/npm/v/@kayaozkur/mcp-server-linear.svg)](https://www.npmjs.com/package/@kayaozkur/mcp-server-linear)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
@@ -34,10 +34,10 @@ An enhanced Model Context Protocol (MCP) server that provides comprehensive acce
 
 ```bash
 # Install from npm (recommended)
-npm install -g @lepion/mcp-server-linear
+npm install -g @kayaozkur/mcp-server-linear
 
 # Or clone the repository for development
-git clone https://github.com/lepion/mcp-server-linear.git
+git clone https://github.com/kayaozkur/mcp-server-linear.git
 cd mcp-server-linear
 
 # Install dependencies
@@ -105,7 +105,7 @@ Add to your Claude Desktop configuration (`~/Library/Application Support/Claude/
       "command": "npx",
       "args": [
         "-y",
-        "@lepion/mcp-server-linear"
+        "@kayaozkur/mcp-server-linear"
       ],
       "env": {
         "LINEAR_API_KEY": "lin_api_xxxxxxxxxxxxxxxxxxxx"
@@ -124,7 +124,7 @@ For enhanced intelligence features, use:
       "command": "npx",
       "args": [
         "-y",
-        "@lepion/mcp-server-linear",
+        "@kayaozkur/mcp-server-linear",
         "--enhanced"
       ],
       "env": {
@@ -392,7 +392,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - 📧 Email: support@lepion.ai
-- 🐛 Issues: [GitHub Issues](https://github.com/lepion/mcp-server-linear/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/kayaozkur/mcp-server-linear/issues)
 - 💬 Discord: [Join our community](https://discord.gg/lepion)
 - 📚 Docs: [Full documentation](https://docs.lepion.ai/mcp-server-linear)
 
