@@ -279,7 +279,7 @@ async function main() {
   try {
     const transport = new StdioServerTransport();
     await server.connect(transport);
-    logger.info("Multi-Agent MCP Server started successfully");
+    // Server started - no logging to avoid stdout pollution
   } catch (error) {
     logger.error("Failed to start multi-agent server:", error);
     process.exit(1);

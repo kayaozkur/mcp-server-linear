@@ -10,7 +10,7 @@ export interface Logger {
 
 class ConsoleLogger implements Logger {
   info(message: string, ...args: any[]): void {
-    console.log(`[INFO] ${message}`, ...args);
+    console.error(`[INFO] ${message}`, ...args);
   }
 
   warn(message: string, ...args: any[]): void {

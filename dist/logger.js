@@ -3,7 +3,7 @@
  */
 class ConsoleLogger {
     info(message, ...args) {
-        console.log(`[INFO] ${message}`, ...args);
+        console.error(`[INFO] ${message}`, ...args);
     }
     warn(message, ...args) {
         console.warn(`[WARN] ${message}`, ...args);

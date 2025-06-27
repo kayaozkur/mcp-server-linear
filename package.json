@@ -1,9 +1,17 @@
 {
   "name": "@lepion/mcp-server-linear",
-  "version": "1.1.0",
-  "description": "Model Context Protocol server for intelligent multi-agent communication system management",
+  "version": "1.1.6",
+  "description": "Model Context Protocol server for multi-agent screen session coordination and communication networks",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "mcp-server-linear": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -23,7 +31,7 @@
   "author": "Lepion",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.3"
+    "@modelcontextprotocol/sdk": "^1.13.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
